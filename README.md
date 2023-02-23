@@ -1,6 +1,6 @@
-# From Electrons to Phase Diagrams
+# DPG Workflows tutorial 2023
 
-This repository contains the materials presented during the [workshop](http://potentials.rub.de/2022/index.php) organised from 8-10 June 2022. The documentation is available [here](http://pyiron.org/potentials-workshop-2022/intro.html).
+This repository contains the materials presented during the DPG workflows tutorial organised on 26 March 2023. 
 
 ## Creating the environment
 
