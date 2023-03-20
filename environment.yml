@@ -28,4 +28,4 @@ dependencies:
 - ipywidgets
 - libgcc
 - pip:
-  - tensorflow =2.8.0
+  - tensorflow ==2.8.0
