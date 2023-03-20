@@ -11,5 +11,5 @@ echo "Press enter to continue: "
 
 if read -r; then
     git checkout main -- '*'
-    git pull --force
+    git pull --force 
 fi
