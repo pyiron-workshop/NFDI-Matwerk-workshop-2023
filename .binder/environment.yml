@@ -27,5 +27,6 @@ dependencies:
 - ipympl
 - ipywidgets
 - libgcc
+- protobuf =3.20
 - pip:
   - tensorflow ==2.8.0
