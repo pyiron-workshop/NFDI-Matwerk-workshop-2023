@@ -26,5 +26,4 @@ dependencies:
 - ipykernel
 - ipympl
 - ipywidgets
-- pip:
-    - tensorflow =2.8.0
+- tensorflow =2.8.0
