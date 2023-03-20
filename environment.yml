@@ -5,7 +5,7 @@ dependencies:
 - cmake
 - python =3.9
 - pyiron =0.4.7
-- pyiron_base =0.5.31
+- pyiron_base =0.5.33
 - pyiron_atomistics =0.2.64
 - pyiron_contrib =0.1.6
 - pyiron_gpl
