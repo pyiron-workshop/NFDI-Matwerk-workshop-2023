@@ -27,3 +27,4 @@ dependencies:
 - ipympl
 - ipywidgets
 - tensorflow =2.8.0
+- libgcc
