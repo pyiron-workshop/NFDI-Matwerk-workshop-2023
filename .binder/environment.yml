@@ -1,0 +1,30 @@
+name: workshop
+channels:
+- conda-forge
+dependencies:
+- cmake
+- python =3.9
+- pyiron =0.4.7
+- pyiron_base =0.5.33
+- pyiron_atomistics =0.2.64
+- pyiron_contrib =0.1.6
+- pyiron_gpl
+- pyiron-data
+- openmpi
+- mpi4py
+- lammps =2022.06.23=*openmpi*_16
+- iprpy-data
+- sphinxdft >=2.7.0
+- sphinxdft-data
+- nglview
+- seaborn
+- pyscal =2.10.18
+- jupyterlab
+- jupyter-book
+- sqsgenerator
+- pymatgen
+- ipykernel
+- ipympl
+- ipywidgets
+- tensorflow =2.8.0
+- libgcc
