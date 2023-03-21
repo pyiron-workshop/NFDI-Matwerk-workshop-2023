@@ -7,7 +7,7 @@ This repository contains the materials presented during the DPG workflows tutori
 The conda environment which includes all the necessary packages is specified in the `environment.yml` file. The environment can be created using:
 
 ```
-conda env create -f environment.yml 
+conda env create -f environment.yml  
 ```
 
 Once the environment is created, it can be activated using `conda activate potentials`. Additionally the following commands need to be run to install other necessary packages.
