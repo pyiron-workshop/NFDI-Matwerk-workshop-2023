@@ -9,5 +9,6 @@ cd ..
 
 git clone https://github.com/ICAMS/python-ace
 cd python-ace
+#git checkout 7dd6853a53
 python setup.py install
 cd ..
