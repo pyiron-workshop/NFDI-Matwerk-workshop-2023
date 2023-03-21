@@ -7,7 +7,7 @@ dependencies:
 - pyiron =0.4.7
 - pyiron_base =0.5.33
 - pyiron_atomistics =0.2.64
-- pyiron_contrib =0.1.8=*_1
+- pyiron_contrib =0.1.8
 - pyiron_gpl
 - pyiron-data
 - openmpi
