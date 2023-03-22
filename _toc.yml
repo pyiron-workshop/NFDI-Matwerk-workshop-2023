@@ -6,9 +6,9 @@ root: intro
 chapters:
   - file: introduction/Intro.md
     sections:
-    - file: introduction/ex_01_introduction_to_pyiron.ipynb
-    - file: introduction/ex_02_creating_structure_databases.ipynb
-    - file: introduction/ex_03_visualizing_training_data.ipynb
+    - file: introduction/01_Introduction_Pyiron.ipynb
+    - file: introduction/02_Visualizing_Training_Data.ipynb
+    - file: introduction/03_Creating_Training_Data.ipynb
   - file: potentials/Intro.md
     sections:
     - file: potentials/01-EAM/IntroductionPotentialFitting.ipynb
