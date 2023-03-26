@@ -1,5 +1,7 @@
 # DPG Workflows tutorial 2023
 
+Repository link: https://github.com/pyiron/dpg-workflows-tutorial-2023
+
 This repository contains the materials presented during the DPG workflows tutorial organised on 26 March 2023. 
 
 ## Creating the environment
