@@ -1,0 +1,33 @@
+#Set up the units, boundary
+units                  metal 
+dimension              3 
+boundary               p p p 
+atom_style             atomic
+
+#Create a simulation box
+lattice                fcc 4.045  
+region                 box block 0 4 0 4 0 4
+create_box             1 box
+create_atoms           1 box
+
+#specify the interatomic interaction
+pair_style             eam/fs
+pair_coeff             * * Al1.eam.fs Al
+
+#relax the structure
+fix                    1 all box/relax iso 0. vmax 0.0001 nreset 1
+minimize               1.0e-8 1.0e-8 100000000 100000000
+unfix                  1
+
+#tell LAMMPS what quantities to compute
+compute                t all temp
+compute                stress all pressure t
+variable               sigma11 equal c_stress[1]
+variable               sigma22 equal c_stress[2]
+
+#apply strain on the system
+fix                    strain all deform 1 x erate 0.00001
+#print out stress
+fix                    extra all print 1 " $(lx) ${sigma11} ${sigma22}" file stress.dat
+#do 1000 times
+run                    1000
