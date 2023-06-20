@@ -37,7 +37,6 @@ dependencies:
 - pyiron_continuum =0.0.5
 - pymatgen =2022.11.7
 - pyvista
-- vtk
 - libmamba =1.1.0
 - pip:
   - tensorflow ==2.8.0
