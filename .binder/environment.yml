@@ -29,5 +29,6 @@ dependencies:
 - libgcc
 - protobuf =3.20
 - pyopenssl >=22.0.0
+- calphy =1.2.2
 - pip:
   - tensorflow ==2.8.0
