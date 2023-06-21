@@ -11,7 +11,7 @@ dependencies:
 - panel =0.14.3
 - pyiron_continuum 
 - pyiron_gpl
-- pymatgen =2022.11.7
+- pymatgen
 - pyvista
 - sqsgenerator =0.2
 - vtk
