@@ -4,21 +4,33 @@ channels:
 dependencies:
 - cmake
 - python =3.9
-- pyiron =0.4.7
-- pyiron_base =0.5.33
-- pyiron_atomistics =0.2.64
-- pyiron_contrib =0.1.8=*_1
+- damask =3.0.0a7
+- hdf5 >=1.12.2
+- fenics 
+- mshr 
+- panel =0.14.3
+- pyiron_continuum 
+- pyiron_gpl
+- pymatgen =2022.11.7
+- pyvista
+- sqsgenerator =0.2
+- vtk
+- libmamba =1.1.0
+- pyiron
+- pyiron_base
+- pyiron_atomistics
+- pyiron_contrib
 - pyiron_gpl
 - pyiron-data
 - openmpi
 - mpi4py
-- lammps =2022.06.23=*openmpi*_16
+- lammps
 - iprpy-data
 - sphinxdft >=2.7.0
 - sphinxdft-data
 - nglview
 - seaborn
-- pyscal =2.10.18
+- pyscal
 - jupyterlab
 - jupyter-book
 - sqsgenerator
@@ -27,16 +39,6 @@ dependencies:
 - ipympl
 - ipywidgets
 - libgcc
-- protobuf =3.20
+- protobuf
 - pyopenssl >=22.0.0
 - calphy =1.2.2
-- damask =3.0.0a7
-- fenics =2019.1.0=*_34
-- mshr =2019.1.0=*_7
-- panel =0.14.3
-- pyiron_continuum =0.0.5
-- pymatgen =2022.11.7
-- pyvista
-- libmamba =1.1.0
-- pip:
-  - tensorflow ==2.8.0
