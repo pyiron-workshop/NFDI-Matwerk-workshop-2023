@@ -6,7 +6,6 @@ dependencies:
 - python =3.9
 - damask =3.0.0a7
 - hdf5 >=1.12.2
-- fenics 
 - mshr 
 - panel =0.14.3
 - pyiron_continuum 
