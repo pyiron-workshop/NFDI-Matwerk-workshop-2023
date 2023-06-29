@@ -28,7 +28,7 @@ dependencies:
 - iprpy-data
 - sphinxdft >=2.7.0
 - sphinxdft-data
-- nglview
+- nglview =3.0.5
 - seaborn
 - pyscal
 - jupyterlab
