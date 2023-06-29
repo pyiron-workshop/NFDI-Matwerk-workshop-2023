@@ -38,6 +38,5 @@ dependencies:
 - ipympl
 - ipywidgets
 - libgcc
-- protobuf
 - pyopenssl >=22.0.0
 - calphy =1.2.2
