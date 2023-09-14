@@ -1,8 +1,13 @@
-# DPG Workflows tutorial 2023
+# <font style="color:#004A7C" face="Helvetica" > Workflows for materials science simulations with pyiron </font>
 
-Repository link: https://github.com/pyiron/dpg-workflows-tutorial-2023
+Hickel, T. (Speaker)¹; Menon, S. (Speaker)¹; Waseda, O. (Speaker)¹
+¹Max-Planck-Institut für Eisenforschung GmbH, Düsseldorf
 
-This repository contains the materials presented during the DPG workflows tutorial organised on 26 March 2023. 
+Presented at the NFDI-Matwerk conference on 29.06.2023
+
+
+Advanced computational simulations in materials science have reached a maturity that allows one to accurately describe and predict materials properties and processes. The underlying simulation tasks often involve several different models and software that requires expert knowledge to set up a project and to vary input parameters. The accompanying increasing complexity of simulation protocols means that the workflow along the simulation chain becomes an integral part of research. Effective workflow management therefore is important for efficient research and transparent and reproducible results. In this hands-on tutorial we will provide an interactive hands-on introduction into managing workflows with pyiron (www.pyiron.org). Pyiron is an integrated development environment for materials science built on python and Jupyter notebooks that may be used for a wide variety of simulation tasks, from rapid prototyping to high performance computing.
+
 
 ## Creating the environment
 
@@ -10,20 +15,6 @@ The conda environment which includes all the necessary packages is specified in 
 
 ```
 conda env create -f environment.yml  
-```
-
-Once the environment is created, it can be activated using `conda activate potentials`. Additionally the following commands need to be run to install other necessary packages.
-
-```
-git clone https://github.com/ICAMS/TensorPotential
-cd TensorPotential
-python setup.py install
-cd ..
-
-git clone https://github.com/ICAMS/python-ace
-cd python-ace
-python setup.py install
-cd ..
 ```
 
 ## Building the documentation
