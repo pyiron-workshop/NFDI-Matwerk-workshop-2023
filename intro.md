@@ -1,12 +1,13 @@
-# <font style="color:#B71C1C" face="Helvetica" > From Electrons to Phase Diagrams 2022 </font>
+# <font style="color:#004A7C" face="Helvetica" > Workflows for materials science simulations with pyiron </font>
 
-Phase diagrams are of ubiquitous importance for materials design. Current materials design workflows in industry and academia employ CALPHAD-computed phase diagrams that to a large extent rely on assessed experimental data.
+Hickel, T. (Speaker)¹; Menon, S. (Speaker)¹; Waseda, O. (Speaker)¹
+¹Max-Planck-Institut für Eisenforschung GmbH, Düsseldorf
 
-Today the computation of large numbers of DFT data are becoming a routine task, due to efficient DFT codes, efficient workflow management and powerful high-performance computing. Together with progress in interatomic potentials, in particular the development of machine learning potentials as well as efficient implementations and parameterization codes, this means that interatomic potentials with near-DFT accuracy are now available. When combined with efficient sampling for the computation of free energies, it is therefore possible to estimate phase diagrams directly from DFT data and to supplement and assess experimental input.
+Presented at the NFDI-Matwerk conference on 29.06.2023
 
-At the three-day workshop we will provide tutorials and hands-on classes that cover the complete chain from high-throughput electronic structure calculations to the computation of phase diagrams. Day 1 will focus on automated workflows for the generation of DFT data. On day 2 we will discuss the parameterization and validation of interatomic potentials from DFT reference data. Day 3 will then introduce the methods and tools for the computation of thermodynamic properties and phase diagrams.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8NP3DpUkg6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Advanced computational simulations in materials science have reached a maturity that allows one to accurately describe and predict materials properties and processes. The underlying simulation tasks often involve several different models and software that requires expert knowledge to set up a project and to vary input parameters. The accompanying increasing complexity of simulation protocols means that the workflow along the simulation chain becomes an integral part of research. Effective workflow management therefore is important for efficient research and transparent and reproducible results. In this hands-on tutorial we will provide an interactive hands-on introduction into managing workflows with pyiron (www.pyiron.org). Pyiron is an integrated development environment for materials science built on python and Jupyter notebooks that may be used for a wide variety of simulation tasks, from rapid prototyping to high performance computing.
+
 
 
 ```{tableofcontents}

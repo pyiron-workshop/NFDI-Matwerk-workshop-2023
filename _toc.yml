@@ -4,13 +4,12 @@
 format: jb-book
 root: intro
 chapters:
-    sections:
-    - file: matwerk_workshop/01_introduction/01_Introduction_Pyiron.ipynb
-    - file: matwerk_workshop/01_introduction/02_Visualizing_Training_Data.ipynb
-    - file: matwerk_workshop/01_introduction/03_Creating_Training_Data.ipynb
-    - file: matwerk_workshop/02_phase_diagram/exercise_1.ipynb
-    - file: matwerk_workshop/02_phase_diagram/exercise_2.ipynb
-    - file: matwerk_workshop/03_continuum/atomistic_elastic_constants.ipynb
-    - file: matwerk_workshop/03_continuum/calculation.ipynb
-    - file: matwerk_workshop/03_continuum/damask_tutorial.ipynb
-    - file: matwerk_workshop/03_continuum/submitter.ipynb
+  - file: matwerk_workshop/01_introduction/01_Introduction_Pyiron.ipynb
+  - file: matwerk_workshop/01_introduction/02_Visualizing_Training_Data.ipynb
+  - file: matwerk_workshop/01_introduction/03_Creating_Training_Data.ipynb
+  - file: matwerk_workshop/02_phase_diagram/tutorial_1.ipynb
+  - file: matwerk_workshop/02_phase_diagram/tutorial_2.ipynb
+  #- file: matwerk_workshop/03_continuum/atomistic_elastic_constants.ipynb
+  #- file: matwerk_workshop/03_continuum/calculation.ipynb
+  - file: matwerk_workshop/03_continuum/damask_tutorial.ipynb
+  #- file: matwerk_workshop/03_continuum/submitter.ipynb
