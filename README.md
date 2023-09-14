@@ -1,6 +1,6 @@
 # <font style="color:#004A7C" face="Helvetica" > Workflows for materials science simulations with pyiron </font>
 
-Hickel, T. (Speaker)¹; Menon, S. (Speaker)¹; Waseda, O. (Speaker)¹
+Hickel, T. (Speaker)¹; Menon, S. (Speaker)¹; Waseda, O. (Speaker)¹  
 ¹Max-Planck-Institut für Eisenforschung GmbH, Düsseldorf
 
 Presented at the NFDI-Matwerk conference on 29.06.2023
