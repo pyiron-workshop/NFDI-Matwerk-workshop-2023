@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "Workshop: From Electrons to Phase Diagrams"
+title: "Workflows for materials science simulations with pyiron"
 #author: The Jupyter Book Community
-logo: potentials_logo.png
+logo: Logo_NFDI-MatWerk.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -19,7 +19,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/pyiron/potentials-workshop-2022
+  url: https://github.com/pyiron/NFDI-Matwerk-workshop-2023
   path_to_book: book
   branch: main
 
