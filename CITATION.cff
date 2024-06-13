@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: NFDI-MatWerk Conference Tutorial 'Workflows for materials science simulations with pyiron'
+message: >-
+  Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) 
+  under the National Research Data Infrastructure – NFDI 38/1 – project number 460247524
+authors:
+- given-names: Sarath
+  family-names: Menon
+  affiliation: Max-Planck-Institut für Eisenforschung GmbH
+  orcid: 'https://orcid.org/0000-0002-6776-1213'
+- given-names: Hickel
+  family-names: Tilmann
+  orcid: 'https://orcid.org/0000-0003-0698-4891'
+  affiliation: 'Bundesanstalt für Materialforschung und -prüfung'
+- given-names: Waseda
+  family-names: Osamu
+  orcid: 'https://orcid.org/0000-0002-1677-4057'
+  affiliation: Max-Planck-Institut für Eisenforschung GmbH
+url: 'https://nfdi-matwerk.de/nfdi/2023/'
+license: "MIT"
+repository-code: https://github.com/pyiron-workshop/NFDI-Matwerk-workshop-2023
+type: software
+version: 1.0.0
+abstract: >-
+  Advanced computational simulations in materials science have reached a maturity that allows one to accurately describe and predict materials properties and processes. The underlying simulation tasks often involve several different models and software that requires expert knowledge to set up a project and to vary input parameters. The accompanying increasing complexity of simulation protocols means that the workflow along the simulation chain becomes an integral part of research. Effective workflow management therefore is important for efficient research and transparent and reproducible results. In this hands-on tutorial we will provide an interactive hands-on introduction into managing workflows with pyiron (www.pyiron.org). Pyiron is an integrated development environment for materials science built on python and Jupyter notebooks that may be used for a wide variety of simulation tasks, from rapid prototyping to high performance computing.
